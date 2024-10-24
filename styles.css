@@ -1,0 +1,241 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+h1, h3 {
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Header and Navbar */
+.logo  {
+    width: 150px;
+    height: auto;
+}
+
+.navbar {
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    margin-left: 20px;
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* General Styles */
+body {
+    background-color: #f4f4f4; /* Light background color */
+    font-family: Arial, sans-serif; /* Font for the entire page */
+}
+
+/* Header Styles */
+.logo {
+    
+    width: 150px; /* Logo size */
+}
+
+/* Coming Soon Section Styles */
+.container {
+    background-color: white; /* White background for the content area */
+    padding: 30px; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Image Styles */
+.img-fluid {
+    border-radius: 8px; /* Rounded corners for the image */
+    transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+}
+
+.img-fluid:hover {
+    transform: scale(1.05); /* Scale up the image on hover */
+}
+
+/* Text Styles */
+h1 {
+    color: #FF5733; /* Title color */
+}
+
+h3 {
+    color: #28a745; /* Subtitle color for 'Coming Soon!' */
+}
+
+.lead {
+    font-size: 1.2em; /* Larger font size for the lead paragraph */
+    color: #333; /* Darker text color for better readability */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark footer background */
+    padding: 10px 0; /* Padding for the footer */
+    position: relative; /* Positioning for the footer */
+    bottom: 0; /* Footer at the bottom */
+    width: 100%; /* Full width for the footer */
+}
+
+/* Advertisement Section */
+.ad-section {
+    background-color: #ffeb3b;
+    padding: 20px;
+    border-radius: 5px;
+    animation: fadeIn 2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: left;
+}
+
+.ad-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.ad-description {
+    font-size: 18px;
+    color: #555;
+}
+
+.ad-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Car Card Styles */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 22px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #555;
+}
+
+.btn {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+/* General Styles */
+
+
+/* Header Styles */
+
+/* Location Section Styles */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styles */
+.img-fluid {
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Smooth image zoom effect */
+}
+
+.img-fluid:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+/* Paragraph Styles */
+.text-center {
+    font-size: 18px; /* Larger font for better readability */
+    color: #333; /* Darker text color */
+}
+
+/* Footer Styles */
+
+/* General Styling for the page */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Patch Updates Page Styles */
+.update-card {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.update-card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.update-card h3 {
+    color: #333;
+    font-size: 24px;
+}
+
+.update-card ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.update-card li {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        margin-left: 0;
+        padding: 8px;
+        font-size: 14px;
+    }
+    .ad-section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
